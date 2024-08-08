@@ -1,0 +1,90 @@
+.tasklist{
+    margin:5px;
+    background-color:rgb(206, 217, 213);;
+    height:100vh;
+}
+.txt{
+    font-size:40px;
+    margin-left: 30%;
+    font-weight: 800;
+    margin-bottom: 10px;
+}
+span{
+    color:rgb(167, 86, 229)
+}
+.container{
+    background-color: white;
+    margin:10px 200px;
+    position:relative;
+    height:90%;
+}
+.add{
+   display:flex;
+   justify-content: end;
+}
+.txt1 span{
+    font-size:32px;
+    font-weight: 800;
+    color:black;
+    text-shadow:-3px -4px 11px black, 6px 7px 9px blueviolet;
+    position:absolute;
+    z-index: 2;
+    right:20px;
+}
+   
+.icon{
+    margin-top: 31px;
+    margin-right: 34px;
+    position:absolute;
+    right:210px;
+    z-index:2;
+}
+.txt1{
+    margin-top: 35px;
+    margin-right:50px;
+}
+.grid-container{
+    display:grid;
+    grid-template-columns: repeat(3,1fr);
+  
+}
+.card{
+    position: relative;
+    top:40px;
+    height:252px;
+    width:260px;
+    border:2px solid black;
+    border-radius:10px;
+    background-color: rgb(206, 217, 213);
+    margin-top:21px;
+    margin-left:23px;
+    z-index:1;
+}
+.card:hover{
+    box-shadow: 9px 9px 7px grey;
+}
+h3{
+    font-size:28px;
+    color:blueviolet;
+}
+.txt2{
+    text-decoration: line-through;
+    color:black;
+    font-size:20px;
+}
+.txt3{
+    color:black;
+    font-size:20px;
+}
+input{
+    height:15px;
+    margin:0 6px;
+}
+@media (max-width:1000px){
+    
+.container{
+    background-color: white;
+    margin:10px 50px;
+  
+}
+}
